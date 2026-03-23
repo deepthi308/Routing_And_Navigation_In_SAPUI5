@@ -1,0 +1,17 @@
+<mvc:View
+    controllerName="com.mandeep.zroutingandnavigation.controller.About"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+>
+    <Page
+        id="aboutPage"
+        title="About Page"
+    >
+        <Button
+            text="Navigate to Home Page"
+            icon="sap-icon://arrow-left"
+            press="onNavigateToHomePage"
+        >
+        </Button>
+    </Page>
+</mvc:View>
